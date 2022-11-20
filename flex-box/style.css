@@ -1,0 +1,78 @@
+body {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    margin-left: -30px;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 25%;
+    margin-left: 30px;
+}
+
+.card-image {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-top {}
+
+.card-title {}
+
+.card-user {
+    display: flex;
+}
+
+.card-user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-user-info {
+    padding-left: 20px;
+    flex: 1;
+}
+
+.card-user-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.card-user-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.card-user-game {
+    color: #999;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.card-user-top ion-icon {
+    color: #20E3B2;
+    margin: 15px;
+}
+
+.card-bottom {}
+
+.card-live {}
+
+.card-watching {}
